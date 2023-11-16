@@ -11,14 +11,10 @@ import javax.swing.JOptionPane;
  * @author USUARIO
  */
 public class QUIZ2 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        Iglesia arrIglesia[] = new Iglesia[3];
+    
+public void run(){
         
-        String nameIglesia = JOptionPane.showInputDialog("Digite el nombre de la igresia");
+        String nameIglesia = JOptionPane.showInputDialog("Digite el nombre de la iglesia");
         String namePastor = JOptionPane.showInputDialog("Digite el nombre del pastor");
         int feligreses = Integer.parseInt(JOptionPane.showInputDialog("Digite la cantidad de feligreses"));
       
@@ -72,6 +68,15 @@ public class QUIZ2 {
                 System.out.println("Nombre: " + nombres[i] + ", Cédula: " + cedulas[i]);
             }
         }
+
+}
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+        QUIZ2 quizz = new QUIZ2();
+        quizz.run();
     }
 }
     
