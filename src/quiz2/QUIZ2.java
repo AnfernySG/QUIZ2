@@ -56,15 +56,17 @@ public class QUIZ2 {
         System.out.printf("Monto para infraestructura municipal: ", impuestoInfraestructura);
         System.out.printf("Monto para el comedor municipal: ", impuestoComedor);
         System.out.printf("Monto de ganancia para el pastor: ", gananciaPastor);
-
-        System.out.println("\nPersonas con diezmo igual a 0:");
+        
+        System.out.println(" ");
+        System.out.println("Personas con diezmo igual a 0:");
         for (int i = 0; i < feligreses; i++) {
             if (diezmos[i] == 0) {
                 System.out.println("Nombre: " + nombres[i] + ", Cédula: " + cedulas[i]);
             }
         }
 
-        System.out.println("\nPersonas con diezmo mayor a 100000:");
+        System.out.println(" ");
+        System.out.println("Personas con diezmo mayor a 100000:");
         for (int i = 0; i < feligreses; i++) {
             if (diezmos[i] > 100000) {
                 System.out.println("Nombre: " + nombres[i] + ", Cédula: " + cedulas[i]);
