@@ -30,7 +30,7 @@ public void run(){
             cedulas[i] = JOptionPane.showInputDialog("Digite la cedula del feligres");
 
            
-            diezmos[i] = Integer.parseInt(JOptionPane.showInputDialog("Digite el diezmo"));
+            diezmos[i] = Double.parseDouble(JOptionPane.showInputDialog("Digite el diezmo"));
             
             //arrFeligreses[i]=new Feligreses(namePastor, i, i, i);
         }
