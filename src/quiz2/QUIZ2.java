@@ -50,7 +50,8 @@ public class QUIZ2 {
         double impuestoComedor = totalDiezmos * 0.21;
         double gananciaPastor = totalDiezmos * 0.7;
 
-        System.out.println("\nInforme de la Iglesia " + nameIglesia + " - Pastor: " + namePastor);
+        System.out.println("");
+        System.out.println("Informe de la Iglesia " + nameIglesia + " - Pastor: " + namePastor);
         System.out.printf("Monto total de ganancias de la iglesia: ", totalDiezmos);
         System.out.printf("Monto para infraestructura municipal: ", impuestoInfraestructura);
         System.out.printf("Monto para el comedor municipal: ", impuestoComedor);
